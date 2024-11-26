@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disen Ranvidu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">Disen Ranvidu</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="content">
+      <h1>Disen Ranvidu</h1>
+      <h2>BSc. Cyber Security & Digital Forensic</h2>
+      <p>Welcome to my professional portfolio. I'm passionate about securing systems, uncovering vulnerabilities, and making the digital world a safer place.</p>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/disen-ranvidu/">LinkedIn</a>
+        <a href="https://github.com/ranvidu123">GitHub</a>
+        <a href="mailto:ranvidud@gmail.com">Email Me</a>
+      </div>
+    </div>
+    <div class="profile-pic">
+      <img src="images/my.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/my.jpg" alt="About Me" class="about-img">
+      <div class="about-text">
+        <h3>A self-taught student with a deep interest in Cyber Security</h3>
+        <p><b>
+          I am Disen Ranvidu, a cybersecurity enthusiast with experience in penetration testing, vulnerability assessments, and digital forensic analysis.
+          My primary goal is to secure systems and networks in an ever-evolving technological landscape.
+        </b></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="images/Acunetix.png" alt="Acunetix">
+        <h3>Acunetix</h3>
+        <!----><!----><h3 class="text-3xl font-semibold" data-v-1e3c88d8=""></h3><!----><p data-v-1e3c88d8=""><b>I use Acunetix to analyse websites for potential vulnerabilities so the website can either be attacked or inform the website owner with security solutions.</b></p><!----><!---->
+      </div>
+      <div class="portfolio-item">
+        <img src="images/burp.png" alt="Burp Suite">
+        <h3>Burp Suite</h3>
+        <p data-v-1e3c88d8=""><b>I use Burp Suite to find vulnerabilities in websites by using their SQL injections, No-Redirect and SSRF tools.</b></p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/nmap.jpg" alt="Nmap">
+        <h3>Nmap</h3>
+        <p data-v-1e3c88d8=""><b>I use Nmap to analyse Website and Server details like Port statuses in order to inform owners about closing ports that can potentially be exploited.</b></p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/wireshark.png" alt="Wireshark">
+        <h3>Wireshark</h3>
+        <p data-v-1e3c88d8=""><b>I use Wireshark to analyse incoming network traffic and investigate handshake packets.</b></p>
+      </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <div class="label">
+        <span>Network Mapper</span>
+        <span>90%</span>
+      </div>
+      <div class="bar professional" style="width: 90%;">
+        <span>Professional | 2 years experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Brute Force Attacks</span>
+        <span>90%</span>
+      </div>
+      <div class="bar professional" style="width: 90%;">
+        <span>Professional | 2 years experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Linux (Debian)</span>
+        <span>70%</span>
+      </div>
+      <div class="bar intermediate" style="width: 70%;">
+        <span>Intermediate | 2 years experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Acunetix</span>
+        <span>70%</span>
+      </div>
+      <div class="bar intermediate" style="width: 70%;">
+        <span>Intermediate | 2 years experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Injection Attacks</span>
+        <span>50%</span>
+      </div>
+      <div class="bar intermediate" style="width: 50%;">
+        <span>Intermediate | 2 years experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Burp Suite</span>
+        <span>60%</span>
+      </div>
+      <div class="bar beginner" style="width: 40%;">
+        <span>Advance | 2 year experience</span>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="label">
+        <span>Python</span>
+        <span>950%</span>
+      </div>
+      <div class="bar beginner" style="width: 30%;">
+        <span>Advance | 2 year experience</span>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>If you have any questions or opportunities, feel free to reach out using the form below.</p>
+  
+  <form class="contact-form" action="submit_form.php" method="POST">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <p>&copy; 2024 Disen Ranvidu. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/disen-ranvidu/">LinkedIn</a>
+      <a href="https://github.com/ranvidu123">GitHub</a>
+      <a href="telto:+9476227300">Mobile</a>
+    </div>
+  </footer>
+</body>
+</html>
